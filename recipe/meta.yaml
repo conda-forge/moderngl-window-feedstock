@@ -20,12 +20,12 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - moderngl <6
-    - numpy >=1.16,<2
-    - pillow >=5
-    - pyglet >=1.5.8,<2
-    - pyrr >=0.10.3,<1
     - python >=3.6
+    - moderngl <6
+    - pyglet >=2.0
+    - numpy >=1.16,<2
+    - pyrr >=0.10.3,<1
+    - pillow >=9,<10
 
 test:
   imports:
