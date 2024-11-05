@@ -1,5 +1,5 @@
 {% set name = "moderngl-window" %}
-{% set version = "2.4.1" %}
+{% set version = "2.4.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/moderngl-window-{{ version }}.tar.gz
-  sha256: 691de764640b87af3d851257be544e1cafddb9cfa47cb144d0c1f1a0ed0a3936
+  sha256: db9b4c27f35faa6f243b6d8cde6ada6da6e79541d62b8e536c0b20da29720c32
 
 build:
   number: 0
